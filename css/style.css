@@ -24,7 +24,7 @@ main{
     width: 70%;
 }
 .social-midia ul li {
-    margin-left: 15px;
+    margin-left: 25px;
     display: inline-block;
     float: left;
     list-style: none;
@@ -47,6 +47,14 @@ main{
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    
+}
+.menu ul li:hover{
+    border-bottom: 2px solid #00bac6;
+    height: 50px;
+}
+.menu ul li a:hover{
+    color: #00bac6;
 }
 .menu ul li a{
     color: #8b8b8b;
